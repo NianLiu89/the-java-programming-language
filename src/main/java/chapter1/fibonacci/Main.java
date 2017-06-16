@@ -1,6 +1,6 @@
 package chapter1.fibonacci;
 
-public class Fibonacci {
+public class Main {
 
     private static final int MAX_SIZE = 20;
 
