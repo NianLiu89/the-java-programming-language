@@ -14,7 +14,7 @@ public class Fibonacci {
         }
 
         for (int i = 0; i < array.length; i++) {
-            System.out.println(String.format("[%2s] %s", i, array[i]));
+            System.out.printf("[%2s] %s%n", i, array[i]);
         }
     }
 }
