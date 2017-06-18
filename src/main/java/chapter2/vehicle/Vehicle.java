@@ -14,6 +14,10 @@ public class Vehicle {
 
     public static Integer nextID = 0;
 
+    public Vehicle() {
+        this("UNKNOWN");
+    }
+
     public Vehicle(String brandName) {
         this.id = nextID++;
         this.brandName = brandName;
