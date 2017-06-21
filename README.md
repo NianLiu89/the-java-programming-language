@@ -69,5 +69,6 @@ The private and protected access modifiers apply only to members not to the clas
 * `final` method is more efficient than non-final ones, it takes fewer steps to invoke the method. Same optimizations can be applied to private and static method, because they cannot be overridden.
 * With a non-final reference, some checks can happen only at run time.
 
-
-
+### The Object Class
+* comparing identity - use `==` to check reference equality
+* comparing equivalence - use `.equal()` to check value equality
