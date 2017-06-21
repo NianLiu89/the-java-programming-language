@@ -60,3 +60,14 @@ The private and protected access modifiers apply only to members not to the clas
 
 ### Methods
 * `final` modifier - cannot be overridden in subclass
+
+##  Chapter 3. Extending Classes
+### Accessing Inherited Members
+* When you invoke a method through an object reference, the actual class of the object governs which implementation is used.
+* When you access a field, the declared type of the reference is used.
+### Marking Methods and Classes final
+* `final` method is more efficient than non-final ones, it takes fewer steps to invoke the method. Same optimizations can be applied to private and static method, because they cannot be overridden.
+* With a non-final reference, some checks can happen only at run time.
+
+
+

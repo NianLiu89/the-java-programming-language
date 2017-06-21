@@ -1,4 +1,4 @@
-package chapter2.constructor;
+package chapter3.constructor;
 
 public class Main {
     public static void main(String[] args) {

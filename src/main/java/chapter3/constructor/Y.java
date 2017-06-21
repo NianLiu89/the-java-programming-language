@@ -1,4 +1,4 @@
-package chapter2.constructor;
+package chapter3.constructor;
 
 public class Y extends X {
     protected int yMask = 0xff00;

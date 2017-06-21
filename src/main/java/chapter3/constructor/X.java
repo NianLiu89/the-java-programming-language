@@ -1,4 +1,4 @@
-package chapter2.constructor;
+package chapter3.constructor;
 
 public class X {
     protected int xMask = 0x00ff;

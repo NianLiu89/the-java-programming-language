@@ -22,15 +22,15 @@ public class PassengerVehicle extends Vehicle {
         occupiedAmount = amount;
     }
 
-    public int getOccupiedAmount() {
+    public final int getOccupiedAmount() {
         return occupiedAmount;
     }
 
-    public int getAvailableAmount() {
+    public final int getAvailableAmount() {
         return capacity - occupiedAmount;
     }
 
-    public int getCapacity() {
+    public final int getCapacity() {
         return capacity;
     }
 
