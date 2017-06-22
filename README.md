@@ -72,3 +72,11 @@ The private and protected access modifiers apply only to members not to the clas
 ### The Object Class
 * comparing identity - use `==` to check reference equality
 * comparing equivalence - use `.equal()` to check value equality
+
+### Extending Classes: How and When
+**There are times when the correct choice is not obvious and for which different choices will be correct depending on the application. In the end, applications must run and make sense.
+Getting IsA versus HasA relationships correct is both subtle and potentially critical. For example, one obvious and common way to design an employee database using object-oriented tools is to use an Employee class that has the properties all persons share (such as name and employee number) and extend it to classes for particular kinds of employees, such as Manager, Engineer, and FileClerk.
+This design fails in real-world situations, in which one person operates simultaneously in more than one role. For example, an engineer might be an acting manager in a group and must now appear in two guises. As another example, a teaching assistant is often both a student and a staff member at a university.
+A more flexible design would create a Role class and extend it to create classes for roles such as Manager. You would then change the design of the Employee class to have a set of Role objects. A person could now be associated with an ever-changing set of roles in the organization. We have changed from saying that a manager IsAn employee to saying that manager IsA role, and that an employee can HaveA manager's role as well as other roles.**
+
+
